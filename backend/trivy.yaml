@@ -1,0 +1,6 @@
+# Trivy configuration for secret scanning
+
+# Skip directories
+scan:
+  skip-dirs: []
+  skip-files: []
