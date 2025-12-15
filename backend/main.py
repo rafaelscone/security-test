@@ -17,9 +17,10 @@ app.add_middleware(
 
 aws = {
     "region": "eu-central-1",
-    "access_key_id": "AKIAIOSFODNN7EXAMPLE",
-    "secret_access_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "access_key_id": "AKIAZXY4FQRST9UVWXYZ",
+    "secret_access_key": "k3Jh9FmP2qL7wN4tR8vB5xC1zA6yD0eG3sH7uI4o",
 }
+github_token = "ghp_2bK9xR4mTqL7wN5vC8zA1yD3eF6gH0jI"
 
 class TodoCreate(BaseModel):
     title: str
